@@ -1,6 +1,8 @@
 package JavaInterface;
 
 public class Fish implements Prey, Predator {
+
+    //Function overriding
     @Override
     public void flee() {
         System.out.println("The fish is swimming away!");
